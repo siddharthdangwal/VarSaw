@@ -24,7 +24,6 @@ import qiskit
 import Reconstruction_Functions as RF
 from term_grouping import *
 
-IBMQ.save_account('331c9ab942d81f24cf4ee8e825f866a38aa86530caebad45652d7a216fa7f5427cea8a7bf47888840922b1d1edabd32d4ec8ec16a8a64a7f1268d29612d1c990', overwrite = True)
 IBMQ.load_account()
 provider = IBMQ.get_provider('ibm-q-research')
 

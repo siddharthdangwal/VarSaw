@@ -66,7 +66,7 @@ def quantum_state_preparation(circuit, parameters):
     parameters: The parameters of the rotations
     
     Returns:
-    Circuit with /home/siddharthdangwal/JigSaw+VQE/Data/Experiment 2/TFIM-4-full/noisy_jigsaw_params.csvthe ansatz for a generalized state appended to it
+    Circuit with the ansatz for a generalized state appended to it
     '''
     num_qubits = circuit.num_qubits
     
